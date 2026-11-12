@@ -11,3 +11,5 @@
 | `07-mover-result.png` | Mover verification: Finance OU, GRP-HR-Staff removed |
 | `08-leaver-result.png` | Leaver verification: Enabled False, no groups |
 | `09-access-report.png` | Verify-Access.ps1 output: members of every GRP-* group |
+| `10-lockout-policy-verify.png` | `gpupdate /force` and `Get-ADDefaultDomainPasswordPolicy` → threshold 5, 10 minutes |
+| `11-lockout-test.png` | Six failed logons → `Search-ADAccount -LockedOut` shows the locked test user |
